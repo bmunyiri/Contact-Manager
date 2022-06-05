@@ -1,10 +1,14 @@
 import "./styles.css";
+import AddContact from "./AddContact";
+import ContactList from "./ContactList";
+import Header from "./Header";
 
 export default function App() {
   return (
     <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
+      <Header />
+      <AddContact />
+      <ContactList />
     </div>
   );
 }
